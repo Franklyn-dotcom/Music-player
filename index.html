@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/05f9529c39.js" crossorigin="anonymous"></script>
     <title>Musicity</title>
 </head>
 <body>
@@ -11,29 +16,47 @@
     <header>
         <!-- left sidebar -->
         <aside class="left">
-            <div id="logo">
-            <img src="" alt="Logo">
+            <div class="logo">
+            <img src="M.png" alt="Logo" id="logo">
             </div>
-            <div class="sag pfp">
-                <a href="">SONGS</a>
-                <a href="">ALBUMS</a>
-                <a href="">GENRES</a>
-                <a href="">PLAYLISTS</a>
-                <a href="">FAVOURITES</a>
-                <a href="">PODCASTS</a>
-            </div>
+          <div class="sag pfp">
+                <a href="" id="music">
+                   <i class="fa-solid fa-music"></i>
+                   <span>SONGS</span>
+                </a>
+                <a href="" id="record">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <span>ALBUMS</span>
+                </a>
+                <a href="" id="genre">
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <span>GENRES</span>
+                </a>
+                <a href="" id="playlist">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <span>PLAYLISTS</span>
+                </a>
+                <a href="" id="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>FAVOURITES</span>
+                </a>
+                <a href="" id="pod">
+                    <i class="fa-solid fa-podcast"></i>
+                    <span>PODCASTS</span>
+                </a>
             <div class="info">
                 <div class="flex-icon">
-
+                    <i class="fa-solid fa-dice" id="dice"></i>
+                    <span>Info:</span>
                 </div>
                 <div class="info-init">
                     <p>
-                        Lorem ipsum dolor sit amet 
-                        consectetur adipisicing elit. 
-                        Soluta, voluptatem!
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                       Deserunt veritatis consectetur nemo impedit dolor accusamus!
                     </p>
                 </div>
             </div>
+          </div>
         </aside>
     </header>
 </body>
