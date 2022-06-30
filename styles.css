@@ -10,7 +10,7 @@ header{
     display: block;
 }
 .left{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     background-color: #000000;
@@ -66,4 +66,89 @@ header{
 }
 #dice{
     font-size: 20px;
+}
+
+
+/* Chris's Styles */
+main {
+    display: flex;
+    width: 100vw;
+
+}
+
+.main-container {
+    width: 100vw;
+}
+.searchDiv{
+    height: 75px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle {
+    margin-bottom: 15px;  
+    border-radius: 50px;
+    background-color: #151414;
+    width: 85px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-button {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#toggle-icon {
+    color: white;
+}
+
+.search-bar {
+    margin-bottom: 15px;  
+    padding-left: 50px;
+    border-radius: 50px;
+    background-color: #151414;
+    width: 500px;
+    height: 40px;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#search-icon {
+    color: white;
+}
+.user {
+    margin-bottom: 15px;  
+    border-radius: 50px;
+    background-color: #151414;
+    width:150px;
+    height: 40px;
+    padding-left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    background-color: #12CB9E;
+    border:  px solid #12CB9E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#user {
+    color: white;
 }
