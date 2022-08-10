@@ -14,7 +14,7 @@
 <body>
     <!-- Hello welcome -->
     <main>
-    <header>
+      <header>
         <!-- left sidebar -->
         <aside class="left">
             <div class="logo">
@@ -59,53 +59,88 @@
             </div>
           </div>
         </aside>
-    </header>
-        <div class="main-container">
-            <div class="searchDiv">
-                <div class="toggle">
-                    <div class="toggle-button"></div>
-                    <i id="toggle-icon" class="fa-solid fa-brightness"></i>
-                    </div>
-                    <div class="search-bar">
-                        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="user">
-                        <p>User Name</p>
-                        <div class="profile">
-                            <i class="fa-solid fa-user" id="user"></i>
-                        </div>
-                    </div>
+       </header>
+        <!-- main content(middle content) -->
+        <section id="md-content">
+            <div class="top-nav">
+                <div class="toogle">
+                    <div class="inline-toogle"></div>
                 </div>
-            </div><!-- end main-container -->
-            <footer>
-                <div class="companyLogo">
-                    <div class="cLogo">
-                        <div class="logo">
-                            <p>Company</p>
-                            <p>Logo</p> 
-                        </div>
-                    </div>
-                </div>
-                <div class="songInfo">
-                    <div class="songTitle">
-                        <p>This is a song Title</p>
-                    </div>
-                    <div class="lyrics">
-                        <p id="Lyrics">Lyrics</p>
-                    </div>
-                </div>
-                <div class="controls">
-                    <i class="fa-solid fa-heart"></i>
-                    <i class="fa-solid fa-shuffle"></i>
-                    <i class="fa-solid fa-arrows-repeat"></i>
-                    <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-solid fa-circle-play"></i>
-                    <i class="fa-solid fa-forward-step"></i>
-                    <i class="fa-solid fa-repeat"></i>
 
+                <!-- search bar -->
+                <div class="search-bar">
+                    <input type="search" name="search-bar" id="search">
                 </div>
-                <div class="volume"></div>
-            </footer>
-        </main>
+
+                <!-- user login -->
+                <div class="user-login">
+                    <div class="inline-flex">
+                        <div class="txt-login">
+                            <span>
+                                Welcome
+                            </span>
+                            <a href="#">User Name</a>
+                        </div>
+                        <div class="user-icon">
+                        <i class="fas fa-user-circle fa-lg fa-fw"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- recommended songs -->
+            <div class="songs-hd">
+
+            </div>
+        </section>
+
+        <!-- right sideBar -->
+        <aside id="right-bar">
+            <div class="title-top">
+                <h2>Top Artiste</h2>
+            </div>
+            <div class="row-albums">
+                <div class=""><span>album1</span></div>
+                <div class=""><span>album2</span></div>
+                <div class=""><span>album3</span></div>
+                <div class=""><span>album4</span></div>
+            </div>
+        </aside>
+
+        <!-- footer -->
+        <footer>
+            <div class="logo-name">
+               <h3>Built by: </h3>
+               <div class="inline">
+                    <div class="f-dev"></div>
+                    <div class="s-dev"></div>
+               </div>
+            </div>
+
+            <!-- play-/record -->
+            <div id="song-titles">
+                <div id="song-t" class="fav-song">
+                    <!-- song-input -->
+                </div>
+                <i class="fas fa-heart fa-1x fa-fw"></i>
+            </div>
+
+            <!-- buttons -->
+            <div class="buttons-contains play-btn">
+                <div class="backward"><i class="fas fa-backward fa-lg fa-fw"></i></div>
+                <div class="pause"><i class="fas fa-pause fa-lg fa-fw"></i></div>
+                <div class="play"><i class="fas fa-play fa-lg fa-fw"></i></div>
+                <div class="forward"><i class="fas fa-forward fa-lg fa-fw"></i></div>
+                <div class="stop"><i class="fas fa-stop fa-lg fa-fw"></i></div>
+                <div class="skip"></div>
+                <div class="volume"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+            </div>
+
+            <!-- Audio visualiser -->
+            <div class="audio-container">
+                <div class="visualiser"></div>
+            </div>
+        </footer>
+    </main>
     </body>
 </html>
